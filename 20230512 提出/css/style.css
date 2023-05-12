@@ -1,0 +1,115 @@
+/* 共通 */
+
+
+/* Main */
+
+.main_title{
+    text-align: center;
+    font-size: 30px;
+}
+
+.main_text{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+/* Button */
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    padding: 10px 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button_c{
+    padding: 10px 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+#rock{
+    background-color: grey;
+    color: white;
+}
+
+#scissors{
+    background-color: blue;
+    color: white;
+}
+
+#paper{
+    background-color: green;
+    color: white;
+}
+
+/* Competitor */
+
+.competitor_text{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.competitor_button{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+}
+
+/* Result */
+
+.result_text{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 24px;
+}
+
+#win{
+    display: none;
+}
+
+#lose{
+    display: none;
+}
+
+#draw{
+    display: none;
+}
+
+/* Reset */
+
+.button_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    position: sticky;
+}
+
+.button_r{
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(211, 206, 206);   
+}
+
+
+
+
+
+
+
